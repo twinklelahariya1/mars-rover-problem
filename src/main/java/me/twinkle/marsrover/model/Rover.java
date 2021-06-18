@@ -10,9 +10,9 @@ import me.twinkle.marsrover.enums.Direction;
 @AllArgsConstructor
 public class Rover {
 
-    private final int roverXAxis;
+    private int roverXAxis;
 
-    private final int roverYAxis;
+    private int roverYAxis;
 
-    private final Direction direction;
+    private Direction direction;
 }
